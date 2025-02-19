@@ -5,7 +5,7 @@ body {
     background-color: #FFEAAE;
     margin: 40px;
     width: 1000px;
-    border: dotted 15px #f8bc7c;
+    border: groove 15px #f8bc7c;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
