@@ -84,3 +84,29 @@ nav a:hover {
 footer {
     clear: both;
 }
+
+/*Episodes page starts*/
+
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episode-card {
+    width: 300px;
+    margin-right:30px;
+    margin-bottom: 30px;
+    border: solid #1d5230;
+}
+
+.episode-card:lastchild{
+    margin-right: 0px;
+}
+
+.episode-card img {
+    width: 100%;
+}
+
+.episode-card p, .episode-card h4 {
+    margin:1em;
+}
