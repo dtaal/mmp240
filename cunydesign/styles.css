@@ -2,7 +2,6 @@
 
 body {
     font-family: "Libre Franklin", sans-serif;
-    max-width: 1200px;
     margin: 10px;
 }
 
@@ -117,6 +116,36 @@ article {
 article img {
     max-width: 100%;
 }
+.card {
+    border: solid 1px #6C757D;
+    border-radius: 10px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px #6f6f6f;
+}
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+.card-body {
+    padding: 1em;
+}
+.card h3 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card h2 {
+    font-size: 1.2em;
+}
+.responsive-img {
+    width: 100%;
+}
+.no-underline {
+    text-decoration: none;
+}
 
 @media (min-width: 768px) {
 
@@ -131,11 +160,36 @@ article img {
     }
     #top-nav ul {
         display: flex;
+        border: none;
     }
     #top-nav ul a {
         border: none;
+        padding: 0.5em;
     }
     #top-nav li {
         margin: 0 1em;
     }
+    .hero {
+        padding: 8em 2em;
+    }
+    .programs-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .dropdown {
+        width: 32%;
+        position: relative;
+
+    }
+    .dropdown ul {
+        position: absolute;
+        width: 100%;
+    }
+    .home main {
+        display: grid;
+        grid-template-columns: /*minmax(500px 1fr) 300px*/ 2fr 1fr;
+        grid-gap: 2em
+    }
+    
 }
+
