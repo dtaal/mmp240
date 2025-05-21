@@ -3,7 +3,6 @@
 body {
     font-family: "Libre Franklin", sans-serif;
     margin: 10px;
-    background-color: antiquewhite;
 }
 
 h1{
@@ -47,6 +46,9 @@ nav ul {
     text-decoration: none;
 }
 
+.menuwrap a:hover {
+    text-decoration: underline;
+}
 .menuwrap a:visited {
     color: #002147;
 }
@@ -79,9 +81,15 @@ nav ul {
     border: solid #002147;
     outline: none;
 }
+
+.material-symbols-outlined {
+    color: #fff;
+}
+
 footer {
     margin-top: 3em;
 }
+
 /* top navigation */
 
 #top-nav{
@@ -117,7 +125,9 @@ footer {
 /* program navigation*/
 .programs-nav {
     background-color: white;
-    padding: 10px;
+}
+.programs-nav ul {
+    padding: 0%;
 }
 .dropdown{
     background-color: #002147;;
@@ -190,6 +200,16 @@ article img {
 #home a{
     color: #8a0202;
     text-decoration: none;
+}
+
+#home a:hover {
+    text-decoration: underline;
+}
+#home article {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    border: #730707 solid;
 }
 .card {
     background-color: #fff;
@@ -282,6 +302,7 @@ a.no-underline {
     .programs-card {
         column-count: 3;
         column-gap:1em;
+        margin-left: 30px;
     }
     .card {
         width: 500px;
