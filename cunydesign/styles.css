@@ -12,7 +12,7 @@ h1{
 }
 
 header {
-    background-color: #002147; /* Dark blue background */
+    background-color: #002147; 
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -115,9 +115,12 @@ footer {
 }
 
 /* program navigation*/
-
+.programs-nav {
+    background-color: white;
+    padding: 10px;
+}
 .dropdown{
-    background-color: #6C757D;
+    background-color: #002147;;
     margin-bottom: 1em;
     border-radius: 10px;
 }
@@ -130,12 +133,12 @@ footer {
 }
 
 .dropdown li a:hover {
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
     color: #000;
 }
 
 .dropdown ul {
-    background-color: #414141;
+    background-color: #002147;;
     display: none;
 
 }
@@ -146,30 +149,35 @@ footer {
 
 
 .hero {
-    background: url(images/QueensCollege.webp) no-repeat top/cover;
-    padding: 2em;
-    color: white;
-}
+    padding: 7rem 1rem;
+    background-image: linear-gradient(0deg, rgb(34, 17, 2) 0%, rgba(93, 59, 0, 0) 100%),
+    url("images/qcgraduated.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+ }
+
 
 .hero p {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 1em;
-    text-align: justify;
+    color: #fff;
+    font-size: 50px;
+    text-align: left;
 }
 
 a.btn {
-    background-color: #BE0E3E;
+    background-color: #be0e0e;
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor:pointer;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 20%;
     text-align: center;
     text-decoration: none;
 }
 
 a.btn:hover {
-    background-color: #7e0a29;
+    background-color: #730707;
 }
 
 article {
@@ -177,7 +185,11 @@ article {
 }
 
 article img {
-    max-width: 100%;
+    max-width: 300px;    
+}
+#home a{
+    color: #8a0202;
+    text-decoration: none;
 }
 .card {
     background-color: #fff;
